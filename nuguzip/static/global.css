@@ -1,0 +1,56 @@
+@font-face{
+	font-family: 'SpoqaHan-sans';
+	src: url('/assets/font/SpoqaHanSansNeo-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+:root{
+--toad-color: rgb(245,236,218);	
+--toad-color-2: rgba(246,245,239);
+--toad-color-3: rgb(249,248,244);
+--toad-color-4: rgb(247,242,231);
+}
+
+span div pre article { 
+	font-family: SpoqaHan-sans;
+}
+
+body {
+	margin: 0;
+	font-family: SpoqaHan-sans;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em 0;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+a {
+	color: inherit;
+}
+
+code {
+	font-family: menlo, inconsolata, monospace;
+	font-size: calc(1em - 2px);
+	color: #555;
+	background-color: #f0f0f0;
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 16px;
+	}
+}
