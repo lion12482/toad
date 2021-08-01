@@ -9,6 +9,7 @@
 .container {
 	display: block;
 	width: 1024px;
+	height: 80px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 1;

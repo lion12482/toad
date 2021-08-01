@@ -186,9 +186,7 @@
 
 .container {
   display: block;
-  width: 1024px;
   margin: 0 auto;
-
 }
 
 
@@ -331,10 +329,11 @@
   position: relative;
   padding: 5px 8px;
 
+  z-index: 3;
+
+  background-color: var(--color-6);
 
   border-radius: 15px;
-  border: solid 1px grey;
-
 }
 
 .total_score {
